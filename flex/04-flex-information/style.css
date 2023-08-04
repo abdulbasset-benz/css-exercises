@@ -5,12 +5,30 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: block;
+  margin: auto;
 }
 
 .title {
+    display: flex;
+  justify-content: center;
+  margin: auto;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.plants {
+  display: flex;
+  align-content: center;
+  vertical-align: top;
+}
+.plants div {
+  width: 200px;
+  margin: auto;
+  gap: 52px;
+}
+
 
 /* do not edit this footer */
 .footer {
