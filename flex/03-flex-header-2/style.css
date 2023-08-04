@@ -30,7 +30,7 @@ body {
 button {
   border: none;
   border-radius: 8px;
-  background: rebeccapurple;
+  background: rgb(99, 32, 165);
   color: white;
   padding: 8px 24px;
 }
@@ -64,5 +64,6 @@ ul {
 .left, .right {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   gap: 16px;
 }
